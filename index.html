@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusantara Hardstyle AI | Premium Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts & FontAwesome -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div class="background-glow"></div>
+
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-waveform-lines"></i>
+            <span>JAWA x HARDSTYLE <span>AI</span></span>
+        </div>
+        <div class="badge-premium"><i class="fa-solid fa-crown"></i> Studio Grade</div>
+    </header>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Eksperimen AI: Gamelan & Hardstyle</h1>
+            <p>Perpaduan distorsi bass keras 150+ BPM dengan mistisnya laras slendro-pelog gamelan Jawa.</p>
+        </section>
+
+        <!-- Player Card Utama -->
+        <section class="player-card">
+            <div class="album-art">
+                <div class="vinyl-disc">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=500&q=80" alt="Album Art">
+                </div>
+            </div>
+            
+            <div class="track-info">
+                <h2 id="track-title">Amuk Suro - Hardstyle Remix</h2>
+                <p id="track-artist">AI Producer ft. Ki Dalang Synth</p>
+                <div class="tag-genre">Phonk-Gamelan Fusion • 155 BPM</div>
+            </div>
+
+            <!-- Visualizer Gelombang Suara -->
+            <div class="visualizer">
+                <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+
+            <!-- Kontrol Audio -->
+            <div class="player-controls">
+                <button id="prev-btn" class="control-btn"><i class="fa-solid fa-backward-step"></i></button>
+                <button id="play-btn" class="play-main"><i class="fa-solid fa-play" id="play-icon"></i></button>
+                <button id="next-btn" class="control-btn"><i class="fa-solid fa-forward-step"></i></button>
+            </div>
+
+            <div class="progress-container" id="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+            
+            <div class="time-codes">
+                <span id="current-time">0:00</span>
+                <span id="duration">3:45</span>
+            </div>
+        </section>
+
+        <!-- Playlist Pilihan -->
+        <section class="playlist-section">
+            <h3>Katalog AI Eksklusif</h3>
+            <ul id="playlist">
+                <li class="playlist-item active" data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" data-title="Amuk Suro - Hardstyle Remix" data-artist="AI Producer ft. Ki Dalang Synth">
+                    <div class="song-meta">
+                        <span class="num">01</span>
+                        <div>
+                            <h4>Amuk Suro</h4>
+                            <p>Hardstyle x Kendang Kempul</p>
+                        </div>
+                    </div>
+                    <span class="duration">3:45</span>
+                </li>
+                <li class="playlist-item" data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" data-title="Macapat Cyber - Rawstyle Mix" data-artist="Jawa Rave AI">
+                    <div class="song-meta">
+                        <span class="num">02</span>
+                        <div>
+                            <h4>Macapat Cyber</h4>
+                            <p>Rawstyle x Sinden Vokal AI</p>
+                        </div>
+                    </div>
+                    <span class="duration">4:12</span>
+                </li>
+                <li class="playlist-item" data-src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" data-title="Sekaten Rave - Extreme Kick" data-artist="Nusantara Bass Lab">
+                    <div class="song-meta">
+                        <span class="num">03</span>
+                        <div>
+                            <h4>Sekaten Rave</h4>
+                            <p>Gong Ageng x Reverse Bass</p>
+                        </div>
+                    </div>
+                    <span class="duration">3:30</span>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Audio Element (Hidden) -->
+    <audio id="audio-element" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+
+    <footer>
+        <p>&copy; 2026 Nusantara Hardstyle AI. Powered by GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
